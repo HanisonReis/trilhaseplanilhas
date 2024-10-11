@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Trilhas e Planilhas</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/tep.png" alt="logo Trilhas e Planilhas" class="logo-img">
+                </a>
+            </div>
+            <div class="contador">
+                <h2 class="titulo">Faltam <span id="contador"></span> para o fim da promoção</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Conquistando Sua<br>
+                            Saúde Financeira<span>.</span></h1>
+                        <p>Esse material tem por objetivo te levar de onde você se encontra hoje,<br>
+                        até o seu ápice financeiro, não importando se você está bem perto<br> 
+                        ou muito distante, com as dicas do e-book, a planilha financeira<br> 
+                        e vontade de mudar, o único limite é você.</p>
+
+                        <div class="btn-contato">
+                            <a href="https://pay.kiwify.com.br/03upImR">
+                                <button>Quero assumir o controle AGORA</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="produto">
+            <div class="interface">
+                <h2 class="titulo">CONHEÇA O PRODUTO <span>POR DENTRO.</span></h2>
+                <!-- PRIMEIRA PARTE DO PRODUTO -->
+                <div class="produto-container"> 
+                    <div class="produto-box-txt data-bank">
+                        <h3>Gráfico de Termômetro</h3>
+                        <p>Nesta área, serão apresentados alguns cálculos juntamente
+                        com o gráfico de termômetro e os percentuais de gasto.
+                        </p>
+                    </div>
+                    <div class="produto-box-img">
+                        <img src="images/PLAN_TM.png" alt="imagem pequena PLAN_04">
+                    </div>
+                </div> <!-- final da div_produto-container parte 01-->
+                <!-- SEGUNDA PARTE DO PRODUTO -->
+                <div class="produto-container">
+                    <div class="produto-box-img">
+                        <img src="images/PLAN_DS.png" alt="imagem pequena PLAN_04">
+                    </div>
+                    <div class="produto-box-txt dashboard">
+                        <h3>Dashboard Financeiro</h3>
+                        <p>Nesta área, serão apresentados os gráficos gerais que são 
+                        alimentados pelos dados da planilha.
+                        </p>
+                    </div>
+                </div> <!-- final da div_produto-container parte 02 -->
+                <!-- TERCEIRA PARTE DO PRODUTO -->
+                <div class="produto-container"> 
+                    <div class="produto-box-txt data-bank">
+                        <h3>Base de Dados</h3>
+                        <p>Nesta área, serão preenchidos os dados básicos
+                        para os usuários dos demais campos da planilha.
+                        </p>
+                    </div>
+                    <div class="produto-box-img">
+                        <img src="images/PLAN_BS.png" alt="imagem pequena PLAN_04">
+                    </div>
+                </div> <!-- final da div_produto-container parte 03-->
+                <!-- QUARTA PARTE DO PRODUTO -->
+                <div class="produto-container">
+                    <div class="produto-box-img">
+                        <img src="images/PLAN_DB.png" alt="imagem pequena PLAN_04">
+                    </div>
+                    <div class="produto-box-txt base-entrada">
+                        <h3>Data Bank</h3>
+                        <p>Nesta área, serão preenchidos os dados básicos
+                        para alimentar os demais campos da planilha.
+                        </p>
+                    </div>
+                </div> <!-- final da div_produto-container parte 04 -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Nova Seção -->
+<section id="liberdade-financeira" class="liberdade-financeira">
+    <div class="interface">
+        <div class="contador">
+            <h2 class="titulo">Faltam <span id="contador2"></span> para o fim da promoção</h2>
+        </div>
+        <div class="promo-img">
+            <img src="images/promo.png" alt="Promoção">
+        </div>
+        <div class="btn-contato">
+            <a href="https://pay.kiwify.com.br/03upImR">
+                <button>COMPRAR AGORA</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section id="trilhas-e-planilhas" class="trilhas-e-planilhas">
+    <div class="interface">
+        <h2 class="titulo">CONHEÇA A <span>TRILHAS E PLANILHAS.</span></h2>
+    </div>
+    <section class="sobre">
+        <div class="interface">
+            <div class="sobre-container">
+                <div class="sobre-img">
+                    <img src="images/hbsr_mold.png" alt="Foto do fundador">
+                </div>
+                <div class="sobre-texto">
+                    <h2>Sobre a Startup <span>Trilhas e Planilhas</span></h2>
+                    <p>Somos dedicados a direcionar você a alcançar seu ápice da melhor forma possivel, através de materiais educativos e ferramentas práticas, 
+                    temos direcionado pessoas e empresas para uma gestão mais resiliente e eficaz.
+                    Com nossas planilhas e e-books, você terá o suporte necessário para tomar controle de sua gestão logistica e financeira.</p>
+                    <h2>Sobre <span>Mim</span></h2>
+                    <p>Olá, meu nome é Hânison Reis, tenho 38 anos e sou graduando em Engenharia de Software. 
+                    Sou o fundador da Startup Trilhas e Planilhas, esta startup surgiu mediante a necessidade 
+                    de suporte para uma área em que poucos buscam domínio. Hoje temos muitos DEV's (desenvolvedores) 
+                    versados em diversas linguagens de programação, porém, são poucos os profissionais que tem proficiência 
+                    em Excel, suas fórmulas e de como aplicar VBA nas planilhas, foi pensando nisso que a <span>TRILHAS E PLANILHAS</span> nasceu.
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
