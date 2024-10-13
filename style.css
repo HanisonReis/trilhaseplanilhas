@@ -116,15 +116,19 @@ section.topo-do-site .flex {
     border-radius: 30px;
 }
 
+/* Estilo da galeria de imagens */
 .produto-container {
     display: flex;
+    justify-content: space-between;
     align-items: center; /* Opcional: alinha verticalmente os itens */
     flex-wrap: wrap; /* Permite quebra de linha */
     margin-bottom: 20px; /* Espaçamento entre os containers */
+    text-align: left; /* Alinhar texto à esquerda */
 }
 
 .produto-box-txt {
     flex: 1;
+    order: 1; /* Alinhar texto à esquerda */
     font-size: 1.2em; /* Ajuste o tamanho da fonte */
     padding: 20px;
     background-color: #ffffff17;
@@ -134,6 +138,7 @@ section.topo-do-site .flex {
 
 .produto-box-img {
     flex: 1;
+    order: 2; /* Alinhar imagem à direita */
     padding: 20px;
     margin: 10px;
 }
@@ -141,9 +146,10 @@ section.topo-do-site .flex {
 .data-bank,
 .base-dados,
 .dashboard {
-    text-align: center;
+    text-align: left;
 }
 
+/* Estilo da seção Trilhas e Planilhas */
 .sobre {
     padding: 50px 4%;
     background-color: #000;
@@ -219,7 +225,12 @@ section.topo-do-site .flex {
     font-size: 1em; /* Ajuste o tamanho da fonte */
 }
 
+/* Media queries para responsividade */
 @media (max-width: 768px) {
+    .interface {
+        padding: 0 20px;
+    }
+
     h2.titulo {
         font-size: 1.5em;
     }
@@ -247,6 +258,14 @@ section.topo-do-site .flex {
 
     .produto-container {
         flex-direction: column;
+    }
+
+    .produto-box-txt {
+        order: 1;
+    }
+
+    .produto-box-img {
+        order: 2;
     }
 
     .sobre-container {
